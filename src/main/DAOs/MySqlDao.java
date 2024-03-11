@@ -10,14 +10,11 @@ public class MySqlDao {
     public Connection getConnection() throws DaoException {
         String driver = "com.mysql.cj.jdbc.Driver";
         /* if driver issue:
-
         go to:
         file -> Project Structure -> Libraries -> Click plus sign -> From Maven ->
         type in: mysql-connector-java, click on the search icon and choose the 8.0.30 ->
         when window pops up click ok -> click apply and then ok again and it should be done
-
          */
-
         String url = "jdbc:mysql://localhost:3306/car_rental";
         String username = "root";
         String password = "";

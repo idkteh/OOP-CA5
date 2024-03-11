@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="It's finally working">
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Adding guide for fixing driver if needed">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +54,15 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710107376469</updated>
-      <workItem from="1710107377595" duration="9888000" />
+      <workItem from="1710107377595" duration="10983000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -105,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710155349547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding guide for fixing driver if needed">
+      <option name="closed" value="true" />
+      <created>1710156579906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710156579906</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding guide for fixing driver if needed">
+      <option name="closed" value="true" />
+      <created>1710156586024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710156586024</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +141,8 @@
     <MESSAGE value="Taking dominik's code" />
     <MESSAGE value="Updating dominik's code,creating missing classes and interface; still have to fix problem with driver" />
     <MESSAGE value="It's finally working" />
-    <option name="LAST_COMMIT_MESSAGE" value="It's finally working" />
+    <MESSAGE value="Adding guide for fixing driver if needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding guide for fixing driver if needed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

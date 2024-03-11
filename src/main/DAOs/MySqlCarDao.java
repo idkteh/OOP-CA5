@@ -17,7 +17,6 @@ public class MySqlCarDao extends MySqlDao implements CarDaoInterface{
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
         List<CarClass> carsList = new ArrayList<>();
-
         try
         {
             //Get connection object using the getConnection() method inherited

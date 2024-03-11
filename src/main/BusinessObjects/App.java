@@ -6,6 +6,7 @@ import main.DTOs.CarClass;
 import main.Exceptions.DaoException;
 import java.util.List;
 
+
 public class App {
     public static void main(String[] args) {
         CarDaoInterface IUserDao = new MySqlCarDao();
@@ -25,11 +26,16 @@ public class App {
         catch (DaoException e){
             e.printStackTrace();
         }
-
-
-
     }
 }
+
+/* TODO ask dermot to help with the output cause why is there '
+    Features 1 - Dominik - done
+    Feature 2 - Dominik
+    Feature 3 - Ida
+    Feature 4 - Logan
+ */
+
 
 
 
