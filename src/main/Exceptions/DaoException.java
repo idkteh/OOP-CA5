@@ -1,6 +1,7 @@
-package main;
+package main.Exceptions;
+import java.sql.SQLException;
 
-public class DaoException extends Exception {
+public class DaoException extends SQLException {
     public DaoException() {
         // not used
     }

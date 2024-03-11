@@ -1,4 +1,6 @@
-package main;
+package main.DAOs;
+
+import main.Exceptions.DaoException;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +8,7 @@ import java.sql.SQLException;
 
 public class MySqlDao {
     public Connection getConnection() throws DaoException {
-        String driver = "com.mysql.cj.jdbc.Driver";
+        String driver = "com.mysql.cj.jdbc.Driver";   //fix
         String url = "jdbc:mysql://localhost:3306/car_rental";
         String username = "root";
         String password = "";

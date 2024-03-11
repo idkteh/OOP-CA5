@@ -1,4 +1,4 @@
-package main;
+package main.DTOs;
 
 public class CarClass {
     private int id;

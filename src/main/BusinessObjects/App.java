@@ -1,10 +1,61 @@
-package main;
+package main.BusinessObjects;
+import main.DAOs.CarDaoInterface;
+import main.DAOs.MySqlCarDao;
+import main.DAOs.MySqlDao;
+import main.DTOs.CarClass;
+import main.Exceptions.DaoException;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) {
+        CarDaoInterface IUserDao = new MySqlCarDao();
+
+        try{
+            System.out.println("\nCall findAllUser()");
+            List<CarClass> cars = IUserDao.findAllUsers();
+
+            if(cars.isEmpty()){
+                System.out.println("There are no cars");
+            }else{
+                for (CarClass car: cars){
+                    System.out.println(car.toString());
+                }
+            }
+
+        }
+        catch (DaoException e){
+            e.printStackTrace();
+        }
+
+
+
+
+
+
+
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    public void start() {
 //
 //        System.out.println("\nSample 1 - Connecting to MySQL Database called \"test\" using MySQL JDBC Driver");
