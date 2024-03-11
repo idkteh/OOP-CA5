@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Adding guide for fixing driver if needed">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added todo list" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710107376469</updated>
-      <workItem from="1710107377595" duration="10983000" />
+      <workItem from="1710107377595" duration="11343000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -131,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710156586024</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added todo list">
+      <option name="closed" value="true" />
+      <created>1710157922258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710157922258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +143,8 @@
     <MESSAGE value="Updating dominik's code,creating missing classes and interface; still have to fix problem with driver" />
     <MESSAGE value="It's finally working" />
     <MESSAGE value="Adding guide for fixing driver if needed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding guide for fixing driver if needed" />
+    <MESSAGE value="Added todo list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added todo list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
