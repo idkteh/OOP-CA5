@@ -12,7 +12,7 @@ public class App {
 
         try{
             System.out.println("\nCall findAllUser()");
-            List<CarClass> cars = IUserDao.findAllUsers();
+            List<CarClass> cars = IUserDao.findAllCars() ;
 
             if(cars.isEmpty()){
                 System.out.println("There are no cars");
@@ -21,16 +21,10 @@ public class App {
                     System.out.println(car.toString());
                 }
             }
-
         }
         catch (DaoException e){
             e.printStackTrace();
         }
-
-
-
-
-
 
 
 

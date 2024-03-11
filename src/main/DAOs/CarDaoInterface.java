@@ -6,7 +6,7 @@ import main.DTOs.CarClass;
 import java.util.List;
 
 public interface CarDaoInterface {
-    public List<CarClass> findAllUsers() throws DaoException;
+    public List<CarClass> findAllCars() throws DaoException;
 
 
 }

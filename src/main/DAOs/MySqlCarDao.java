@@ -11,12 +11,12 @@ import java.util.List;
 
 public class MySqlCarDao extends MySqlDao implements CarDaoInterface{
     @Override
-    public List<CarClass> findAllUsers() throws DaoException
+    public List<CarClass> findAllCars() throws DaoException
     {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
-        List<CarClass> usersList = new ArrayList<>();
+        List<CarClass> carsList = new ArrayList<>();
 
         try
         {
@@ -24,7 +24,7 @@ public class MySqlCarDao extends MySqlDao implements CarDaoInterface{
             // from the super class (MySqlDao.java)
             connection = this.getConnection();
 
-            String query = "SELECT * FROM USER";
+            String query = "SELECT * FROM car";
             preparedStatement = connection.prepareStatement(query);
 
             //Using a PreparedStatement to execute SQL...
@@ -40,11 +40,11 @@ public class MySqlCarDao extends MySqlDao implements CarDaoInterface{
 
 
                 CarClass u = new CarClass(id,model,brand,colour,production_year,price);
-                usersList.add(u);
+                carsList.add(u);
             }
         } catch (SQLException e)
         {
-            throw new DaoException("findAllUseresultSet() " + e.getMessage());
+            throw new DaoException("findAllCarResultSet() " + e.getMessage());
         } finally
         {
             try
@@ -63,9 +63,9 @@ public class MySqlCarDao extends MySqlDao implements CarDaoInterface{
                 }
             } catch (SQLException e)
             {
-                throw new DaoException("findAllUsers() " + e.getMessage());
+                throw new DaoException("findAllCars() " + e.getMessage());
             }
         }
-        return usersList;     // may be empty
+        return carsList;     // may be empty
     }
 }
