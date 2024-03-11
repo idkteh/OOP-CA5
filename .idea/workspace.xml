@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Updating dominik's code,creating missing classes and interface; still have to fix problem with driver" />
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="It's finally working">
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/idate/IdeaProjects/oop-data-access-layer-sample-1",
+    "last_opened_file_path": "C:/Users/idate/IdeaProjects/OOP_CA5_dominik",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710107376469</updated>
-      <workItem from="1710107377595" duration="8566000" />
+      <workItem from="1710107377595" duration="9888000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -87,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710154114343</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="It's finally working">
+      <option name="closed" value="true" />
+      <created>1710155339737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710155339738</updated>
+    </task>
+    <task id="LOCAL-00005" summary="It's finally working">
+      <option name="closed" value="true" />
+      <created>1710155349547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710155349547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +114,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Taking dominik's code" />
     <MESSAGE value="Updating dominik's code,creating missing classes and interface; still have to fix problem with driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating dominik's code,creating missing classes and interface; still have to fix problem with driver" />
+    <MESSAGE value="It's finally working" />
+    <option name="LAST_COMMIT_MESSAGE" value="It's finally working" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="main.Exceptions.DaoException" package="main.Exceptions" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
