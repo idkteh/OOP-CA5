@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="">
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Feature 3 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exceptions/DaoException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +27,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "idkteh"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;idkteh&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -44,42 +41,42 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2dVy7kGgQ0f9EDAR3tqvUPi0KWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/idate/IdeaProjects/oop-database-sample-3-preparedstatement",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/idate/IdeaProjects/oop-database-sample-3-preparedstatement&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710107376469</updated>
       <workItem from="1710107377595" duration="18421000" />
+      <workItem from="1710259869433" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -170,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710158149313</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Feature 3 done">
+      <option name="closed" value="true" />
+      <created>1710260184402</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710260184402</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +190,8 @@
     <MESSAGE value="Added todo list" />
     <MESSAGE value="Added the sql file with all our sql code to have it all in one file" />
     <MESSAGE value="This didn't get uploaded so i'm adding it" />
-    <option name="LAST_COMMIT_MESSAGE" value="This didn't get uploaded so i'm adding it" />
+    <MESSAGE value="Feature 3 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 3 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

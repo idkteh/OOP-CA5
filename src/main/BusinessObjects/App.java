@@ -21,7 +21,13 @@ public class App {
                     System.out.println(car.toString());
                 }
             }
-            System.out.println("\nCall deleteById()");
+            int code = IUserDao.insertCar(new CarClass(1, "Civic", "Honda", "Silver", 2010, 25000));
+            if(code == 1) {
+                System.out.println("\nCar added successfully");
+            } else if (code == 0) {
+                System.out.println("\nCar already exists in table");
+                }
+            System.out.println("\nCall deleteById() where id = 14");
             IUserDao.deleteCarById(14);
 
         } catch (DaoException e) {
@@ -35,7 +41,7 @@ public class App {
     Features 1 - Dominik - done
     Feature 2 - Dominik
     Feature 3 - Ida - done
-    Feature 4 - Logan
+    Feature 4 - Logan - done
  */
 
 
