@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added todo list" />
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exceptions/DaoException.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +29,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "idkteh"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="76e21cf9-bce6-4cad-8a8d-f4608e6564fe" />
+        <option name="url" value="https://github.com/idkteh/OOP-CA5.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -42,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/idate/IdeaProjects/OOP_CA5_dominik",
+    "last_opened_file_path": "C:/Users/idate/IdeaProjects/oop-database-sample-3-preparedstatement",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710107376469</updated>
-      <workItem from="1710107377595" duration="11343000" />
+      <workItem from="1710107377595" duration="18421000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -132,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710157922258</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added the sql file with all our sql code to have it all in one file">
+      <option name="closed" value="true" />
+      <created>1710158071064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710158071064</updated>
+    </task>
+    <task id="LOCAL-00010" summary="This didn't get uploaded so i'm adding it">
+      <option name="closed" value="true" />
+      <created>1710158149313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710158149313</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +182,9 @@
     <MESSAGE value="It's finally working" />
     <MESSAGE value="Adding guide for fixing driver if needed" />
     <MESSAGE value="Added todo list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added todo list" />
+    <MESSAGE value="Added the sql file with all our sql code to have it all in one file" />
+    <MESSAGE value="This didn't get uploaded so i'm adding it" />
+    <option name="LAST_COMMIT_MESSAGE" value="This didn't get uploaded so i'm adding it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

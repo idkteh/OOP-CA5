@@ -69,9 +69,9 @@ public class CarClass {
     public String toString() {
         return "main.DAOs.CarClass{" +
                 "id - " + id +
-                ", model - " + model + '\'' +
-                ", brand - " + brand + '\'' +
-                ", colour - " + colour + '\'' +
+                ", model - " + model +
+                ", brand - " + brand +
+                ", colour - " + colour +
                 ", production_year - " + production_year +
                 ", price - " + price +
                 '}';

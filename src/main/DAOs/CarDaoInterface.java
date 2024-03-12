@@ -7,6 +7,5 @@ import java.util.List;
 
 public interface CarDaoInterface {
     public List<CarClass> findAllCars() throws DaoException;
-
-
+    public void deleteCarById(int id) throws DaoException;
 }
