@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added Logan's code and modified it">
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added dominik's code">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/DaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SQL/code.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,12 +66,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/idate/IdeaProjects/OOP-CA5",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_opened_file_path": "C:/Users/idate/IdeaProjects/oop-client-server-time-and-echo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
@@ -88,7 +94,9 @@
       <updated>1710107376469</updated>
       <workItem from="1710107377595" duration="18421000" />
       <workItem from="1710259869433" duration="1753000" />
-      <workItem from="1710347152186" duration="341000" />
+      <workItem from="1710347152186" duration="637000" />
+      <workItem from="1710425243389" duration="4682000" />
+      <workItem from="1712654587195" duration="1930000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -186,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710261197125</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added dominik's code">
+      <option name="closed" value="true" />
+      <created>1710347781662</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710347781662</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +218,8 @@
     <MESSAGE value="This didn't get uploaded so i'm adding it" />
     <MESSAGE value="Feature 3 done" />
     <MESSAGE value="Added Logan's code and modified it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Logan's code and modified it" />
+    <MESSAGE value="Added dominik's code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dominik's code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
