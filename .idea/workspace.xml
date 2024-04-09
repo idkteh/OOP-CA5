@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added dominik's code">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="updated dominik's code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BusinessObjects/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/CarDaoInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlCarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DAOs/MySqlDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DTOs/CarClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/DaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SQL/code.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +88,7 @@
       <workItem from="1710259869433" duration="1753000" />
       <workItem from="1710347152186" duration="637000" />
       <workItem from="1710425243389" duration="4682000" />
-      <workItem from="1712654587195" duration="1930000" />
+      <workItem from="1712654587195" duration="3493000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -202,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710347781662</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated dominik's code">
+      <option name="closed" value="true" />
+      <created>1712656693308</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712656693308</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +219,8 @@
     <MESSAGE value="Feature 3 done" />
     <MESSAGE value="Added Logan's code and modified it" />
     <MESSAGE value="Added dominik's code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dominik's code" />
+    <MESSAGE value="updated dominik's code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated dominik's code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
