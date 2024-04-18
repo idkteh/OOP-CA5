@@ -2,7 +2,7 @@ package main.java.DTOs;
 
 import java.util.Objects;
 
-public class CarClass {
+public class Car {
     private int id;
     private String model;
     private String brand;
@@ -10,7 +10,7 @@ public class CarClass {
     private int production_year;
     private int price;
 
-    public CarClass(int id, String model, String brand, String colour, int production_year, int price){
+    public Car(int id, String model, String brand, String colour, int production_year, int price){
         this.id = id;
         this.model = model;
         this.brand = brand;
@@ -84,7 +84,7 @@ public class CarClass {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        CarClass car = (CarClass) o;
+        Car car = (Car) o;
         return id == car.id && production_year == car.production_year && price == car.price && Objects.equals(model, car.model) && Objects.equals(brand, car.brand) && Objects.equals(colour, car.colour);
     }
 
@@ -93,7 +93,7 @@ public class CarClass {
         return Objects.hash(id, model, brand, colour, production_year, price);
     }
 
-    public int compareTo(CarClass other) {
+    public int compareTo(Car other) {
         if(this.brand.equals(other.brand))
             return this.model.compareTo(other.model);
         else

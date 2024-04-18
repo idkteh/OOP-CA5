@@ -2,7 +2,7 @@ package test.java;
 
 import main.java.DAOs.CarDaoInterface;
 import main.java.DAOs.MySqlCarDao;
-import main.java.DTOs.CarClass;
+import main.java.DTOs.Car;
 import org.junit.jupiter.api.Test;
 import main.java.Exception.DaoException;
 import main.java.BusinessObjects.App;
@@ -24,9 +24,9 @@ public class AppTest {
 // create an instance of our userinterface
         CarDaoInterface IUserDao = new MySqlCarDao();
 //        create expected carClass return
-        CarClass expectedCar = IUserDao.findCarById(id);
+        Car expectedCar = IUserDao.findCarById(id);
 //        create actual return in our app by calling function for handling this in app
-        CarClass actualCar = App.findCarById(id);
+        Car actualCar = App.findCarById(id);
 //        check if both are same, meaning test successful
         assertEquals(expectedCar, actualCar);
 
@@ -43,9 +43,9 @@ public class AppTest {
 //        create interface
         CarDaoInterface IUserDao = new MySqlCarDao();
 //  create a list for expected cars from our interface calling the function
-        List<CarClass> expectedCars = IUserDao.findAllCars();
+        List<Car> expectedCars = IUserDao.findAllCars();
 //  create actual list of cars from our App and the function inside of it
-        List<CarClass> actualCars = App.fincAllCars();
+        List<Car> actualCars = App.fincAllCars();
 //  comparing the results, needs to be the same
         assertEquals(expectedCars, actualCars);
 //  double check
@@ -80,8 +80,8 @@ public class AppTest {
         int price = 57959;
 
         CarDaoInterface IUserDao = new MySqlCarDao();
-        CarClass expected = IUserDao.insertCar(model, brand, colour, year, price);
-        CarClass actual = App.insertCar(model, brand, colour, year, price);
+        Car expected = IUserDao.insertCar(model, brand, colour, year, price);
+        Car actual = App.insertCar(model, brand, colour, year, price);
 //        if actual is null, it means we are adding the same data as expected
         if(actual == null){
             actual = expected;
@@ -101,9 +101,9 @@ public class AppTest {
     void sortAllDescendingTest() throws SQLException {
         CarDaoInterface IUserDao = new MySqlCarDao();
 //  populating list with expected cars
-        List<CarClass> expectedOrder = IUserDao.findCarsUsingFilter(new carYearComparatorDes());
+        List<Car> expectedOrder = IUserDao.findCarsUsingFilter(new carYearComparatorDes());
 //  populating list with actual cars
-        List<CarClass> actualOrder = App.sortAllDescending();
+        List<Car> actualOrder = App.sortAllDescending();
 //  comparing results
         assertEquals(expectedOrder, actualOrder);
 //        double check
@@ -119,8 +119,8 @@ public class AppTest {
     void sortAllAscendingTest() throws SQLException{
         CarDaoInterface IUserDao = new MySqlCarDao();
 //   populating lists with expected order and a actual order
-        List<CarClass> expectedOrder = IUserDao.findCarsUsingFilter((c1, c2) -> Integer.compare(c1.getProduction_year(), c2.getProduction_year()));
-        List<CarClass> actualOrder = App.sortAllAscending();
+        List<Car> expectedOrder = IUserDao.findCarsUsingFilter((c1, c2) -> Integer.compare(c1.getProduction_year(), c2.getProduction_year()));
+        List<Car> actualOrder = App.sortAllAscending();
 //  comparing results
         assertEquals(expectedOrder, actualOrder);
 // double check
