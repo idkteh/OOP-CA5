@@ -1,12 +1,16 @@
 package main.java.BusinessObjects;
 
+import main.java.DAOs.CarDaoInterface;
+import main.java.DAOs.MySqlCarDao;
 import main.java.DTOs.Car;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.List;
 import java.util.Scanner;
+
 import main.java.DAOs.JsonConverter;
+import main.java.Exception.DaoException;
 
 /**
  * Main Author: Logan Rushe
@@ -40,12 +44,12 @@ public class ClientMenu {
             //ask user to enter a command
             Scanner consoleInput = new Scanner(System.in);
             ClientServerCommands commands = new ClientServerCommands();
-            System.out.printf("Valid commands are: \"%s <integer>\", \"quit\"\n", commands.DisplayCarById);
+            System.out.printf("Valid commands are: \"%s <integer>\",\"display all cars\", \"quit\"\n", commands.DisplayCarById);
             System.out.println("Please enter a command: ");
             String userRequest = consoleInput.nextLine();
             JsonConverter jsonConverter = new JsonConverter();
 
-            while(true) {
+            while (true) {
                 // send the command to the server on the socket
                 out.println(userRequest);      // write the request to socket along with a newline terminator (which is required)
                 // out.flush();                      // flushing buffer NOT necessary as auto flush is set to true
@@ -53,41 +57,41 @@ public class ClientMenu {
                 // process the answer returned by the server
                 if (userRequest.startsWith(commands.DisplayCarById)) // if user asked for "display car by id", we expect the server to return a car (in milliseconds)
                 {
-                    String timeString = in.readLine();
-                    if(timeString.contains("}")) { // Server returned a JSON String
-                        Car car = jsonConverter.fromJson(timeString); // Convert JSON String to car Object
+                    String jsonString = in.readLine();
+
+                    if (jsonString.contains("}")) { // Server returned a JSON String
+                        Car car = jsonConverter.fromJson(jsonString); // Convert JSON String to car Object
                         System.out.println("Car received!");
                         // Display the car in table format
                         System.out.printf("%-5s %-12s %-20s %-10s %s %9s \n", "Id", "Model", "Brand", "Colour", "Production Year", "Price");
                         displayCar(car);
                     } else { // Car was not found
-                        System.out.println("Client message: Response from server after \"display car by id\" request: " + timeString);
+                        System.out.println("Client message: Response from server after \"display car by id\" request: " + jsonString);
                     }
-                }
-                else if(userRequest.startsWith(commands.DisplayAllCars)){
-                    String timeString = in.readLine();
-                    if(timeString.contains("}")) { // Server returned a JSON String
-                        Car car = jsonConverter.fromJson(timeString); // Convert JSON String to car Object
-                        System.out.println("Displaying all cars!");
-                        // Display the car in table format
-                        System.out.printf("%-5s %-12s %-20s %-10s %s %9s \n", "Id", "Model", "Brand", "Colour", "Production Year", "Price");
 
-                        for(Car car: car){
-                            findAllCars();
+                    //Ida
+                } else if (userRequest.startsWith(commands.DisplayAllCars)) {
+                    CarDaoInterface ICarDao = new MySqlCarDao();
+                    String jsonString = in.readLine();  // wait for response from server
+                    List<Car> list = jsonConverter.jsonToCarList(jsonString); // Convert JSON String to car Object
 
-                        }
+                    System.out.println("Displaying all cars!");
+
+                    for (Car car : list) {
                         displayCar(car);
-                    } else { // Car was not found
-                        System.out.println("Client message: Response from server after \"display all cars\" request: " + timeString);
                     }
+
+
+                } else if(userRequest.startsWith(commands.DeleteCarById)){
+
                 }
+
                 else if (userRequest.startsWith("quit")) // if the user has entered the "quit" command
                 {
                     String response = in.readLine();   // wait for response -
                     System.out.println("Client message: Response from server: \"" + response + "\"");
                     break;  // break out of while loop, client will exit.
-                }
-                else {
+                } else {
                     System.out.println("Command unknown. Try again.");
                 }
 

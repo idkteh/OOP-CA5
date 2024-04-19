@@ -89,7 +89,7 @@ public class App {
                    String carList = JsonConverter.carListToJson(cars);
                    System.out.println("*** findAllCars() into Json: ***\n" + carList);
 //                   From Json to List
-                   List<Car> carJson = JsonConverter.JsonToCarList(carList);
+                   List<Car> carJson = JsonConverter.jsonToCarList(carList);
                    for(Car car : carJson){
                        System.out.println(car);
                    }

@@ -10,6 +10,8 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLException;
+import java.util.List;
+
 import main.java.DAOs.JsonConverter;
 import main.java.Exception.DaoException;
 
@@ -127,7 +129,12 @@ class ClientHandler implements Runnable   // each ClientHandler communicates wit
                 } else if (request.startsWith("quit")) {
                     socketWriter.println("Goodbye!");
                     System.out.printf("Server: Client %d is quitting.", clientNumber);
-                } else {
+                }else if(request.startsWith(commands.DisplayAllCars)){
+                    List<Car> list = ICarDao.findAllCars();
+                    String jsonCarList = jsonHandler.carListToJson(list);
+                    System.out.println("Server about to send this Json string"+jsonCarList);
+                    socketWriter.println(jsonCarList);
+                }else {
                     socketWriter.println("ERROR: Unknown Request. Please try again.");
                     System.out.println("Server message: Invalid request from client.");
                 }

@@ -32,7 +32,7 @@ public class JsonConverter {
         return car;
     }
 
-    public List<Car> JsonToCarList(String carListJson){
+    public List<Car> jsonToCarList(String carListJson){
         Gson gsonParser = new Gson();
         Type carListType = new TypeToken<List<Car>>(){}.getType();
         List<Car> carList = gsonParser.fromJson(carListJson, carListType);

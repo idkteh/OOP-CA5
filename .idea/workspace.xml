@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added feature 5 and update the code to be up to date">
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added everything up feature 9 and started working on feature 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessObjects/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusinessObjects/ClientMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessObjects/ClientMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusinessObjects/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessObjects/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Comparators/carYearComparatorDes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comparators/carYearComparatorDes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAOs/CarDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAOs/CarDaoInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DAOs/JsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAOs/JsonConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAOs/MySqlCarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAOs/MySqlCarDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTOs/CarClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTOs/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +80,26 @@
     ]
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="ClientMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.BusinessObjects.ClientMenu" />
+      <module name="OOP-CA5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.BusinessObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientMenu" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +114,7 @@
       <workItem from="1710425243389" duration="4682000" />
       <workItem from="1712654587195" duration="4396000" />
       <workItem from="1712931058940" duration="1232000" />
-      <workItem from="1713445537991" duration="6019000" />
+      <workItem from="1713445537991" duration="10142000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -221,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712659582733</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added everything up feature 9 and started working on feature 10">
+      <option name="closed" value="true" />
+      <created>1713452151016</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713452151016</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +264,8 @@
     <MESSAGE value="updated dominik's code" />
     <MESSAGE value="Added feature 5" />
     <MESSAGE value="Added feature 5 and update the code to be up to date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added feature 5 and update the code to be up to date" />
+    <MESSAGE value="Added everything up feature 9 and started working on feature 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added everything up feature 9 and started working on feature 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
