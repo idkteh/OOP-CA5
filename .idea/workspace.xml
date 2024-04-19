@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Added everything up feature 9 and started working on feature 10">
+    <list default="true" id="3c80e264-33f7-422b-bb05-de645aa9a71a" name="Changes" comment="Feature 10 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessObjects/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessObjects/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusinessObjects/ClientMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessObjects/ClientMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusinessObjects/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessObjects/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAOs/JsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAOs/JsonConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +78,22 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientMenu">
     <configuration name="ClientMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.BusinessObjects.ClientMenu" />
+      <module name="OOP-CA5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.BusinessObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.BusinessObjects.Server" />
       <module name="OOP-CA5" />
       <extension name="coverage">
         <pattern>
@@ -97,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientMenu" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +126,7 @@
       <workItem from="1710425243389" duration="4682000" />
       <workItem from="1712654587195" duration="4396000" />
       <workItem from="1712931058940" duration="1232000" />
-      <workItem from="1713445537991" duration="10142000" />
+      <workItem from="1713445537991" duration="11702000" />
     </task>
     <task id="LOCAL-00001" summary="Taking dominik's code">
       <option name="closed" value="true" />
@@ -244,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713452151016</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feature 10 done">
+      <option name="closed" value="true" />
+      <created>1713534319818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713534319818</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +285,8 @@
     <MESSAGE value="Added feature 5" />
     <MESSAGE value="Added feature 5 and update the code to be up to date" />
     <MESSAGE value="Added everything up feature 9 and started working on feature 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added everything up feature 9 and started working on feature 10" />
+    <MESSAGE value="Feature 10 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature 10 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

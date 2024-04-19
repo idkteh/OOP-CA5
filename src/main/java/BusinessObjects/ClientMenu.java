@@ -44,7 +44,7 @@ public class ClientMenu {
             //ask user to enter a command
             Scanner consoleInput = new Scanner(System.in);
             ClientServerCommands commands = new ClientServerCommands();
-            System.out.printf("Valid commands are: \"%s <integer>\",\"display all cars\", \"quit\"\n", commands.DisplayCarById);
+            System.out.printf("Valid commands are: \"%s <integer>\",\"display all cars\",\"delete car by id <integer>\", \"quit\"\n", commands.DisplayCarById);
             System.out.println("Please enter a command: ");
             String userRequest = consoleInput.nextLine();
             JsonConverter jsonConverter = new JsonConverter();
@@ -71,7 +71,6 @@ public class ClientMenu {
 
                     //Ida
                 } else if (userRequest.startsWith(commands.DisplayAllCars)) {
-                    CarDaoInterface ICarDao = new MySqlCarDao();
                     String jsonString = in.readLine();  // wait for response from server
                     List<Car> list = jsonConverter.jsonToCarList(jsonString); // Convert JSON String to car Object
 
@@ -79,11 +78,12 @@ public class ClientMenu {
 
                     for (Car car : list) {
                         displayCar(car);
+                        Car car2 = jsonConverter.fromJson(jsonString);
+                        System.out.println("Car received!");
                     }
-
-
                 } else if(userRequest.startsWith(commands.DeleteCarById)){
-
+                    String boobies = in.readLine();
+                    System.out.println(boobies);
                 }
 
                 else if (userRequest.startsWith("quit")) // if the user has entered the "quit" command

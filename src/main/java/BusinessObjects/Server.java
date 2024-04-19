@@ -134,7 +134,15 @@ class ClientHandler implements Runnable   // each ClientHandler communicates wit
                     String jsonCarList = jsonHandler.carListToJson(list);
                     System.out.println("Server about to send this Json string"+jsonCarList);
                     socketWriter.println(jsonCarList);
-                }else {
+                }else if(request.startsWith(commands.DeleteCarById)){
+                    String[] requestCommands = request.split(" ");
+                    int id = Integer.parseInt(requestCommands[4]);
+                    ICarDao.deleteCarById(id);
+                    socketWriter.println("Deleted car with id "+id);
+                    System.out.println("Server: Car deleted.");
+                }
+
+                else {
                     socketWriter.println("ERROR: Unknown Request. Please try again.");
                     System.out.println("Server message: Invalid request from client.");
                 }
