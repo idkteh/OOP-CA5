@@ -1,7 +1,6 @@
 package main.java.org.example.Current.DAOs;
 
 import main.java.org.example.Current.DTOs.Car;
-import main.java.org.example.Current.DTOs.Car;
 import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;

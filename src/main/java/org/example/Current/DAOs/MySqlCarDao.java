@@ -1,7 +1,6 @@
 package main.java.org.example.Current.DAOs;
 
 import main.java.org.example.Current.DTOs.Car;
-import org.example.Current.DTOs.Car;
 
 import java.sql.*;
 import java.util.ArrayList;
